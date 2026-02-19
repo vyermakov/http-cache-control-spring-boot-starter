@@ -31,4 +31,4 @@ A simple Spring Boot starter that provides the `@HttpCache` annotation to easily
 ## Annotation Properties
 
 - `cachePublic` (boolean, default: true) - Sets "public" or "private" in Cache-Control
-- `maxAgeSeconds` (int, default: 0) - Sets the max-age value in seconds
+- `maxAgeSeconds` (int, default: 300) - Sets the max-age value in seconds
