@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.jeevision.spring.http</groupId>
 	<artifactId>cache-control</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>http-cache-control-spring-boot-starter</name>
 	<description>HTTP Cache Control Spring Boot Starter</description>
 	<url>https://github.com/vyermakov/http-cache-control-spring-boot-starter</url>
@@ -35,7 +35,7 @@
 			scm:git:git://github.com/vyermakov/http-cache-control-spring-boot-starter.git</connection>
 		<developerConnection>
 			scm:git:git@github.com/vyermakov/http-cache-control-spring-boot-starter.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>cache-control-1.0.1</tag>
 	</scm>
 	<properties>
 		<java.version>25</java.version>
