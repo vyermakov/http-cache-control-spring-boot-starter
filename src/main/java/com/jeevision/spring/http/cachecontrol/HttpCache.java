@@ -1,0 +1,15 @@
+package com.jeevision.spring.http.cachecontrol;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface HttpCache {
+
+    boolean cachePublic() default true;
+
+    int maxAgeSeconds() default 300;
+}
