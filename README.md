@@ -18,7 +18,7 @@ A simple Spring Boot starter that provides the `@HttpCache` annotation to easily
    @RestController
    public class MyController {
        
-       @HttpCache(cachePublic = true, maxAgeSeconds = 300)
+       @HttpCache
        @GetMapping("/api/data")
        public String getData() {
            return "ok";
