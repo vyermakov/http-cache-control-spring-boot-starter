@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.jeevision.spring.http</groupId>
 	<artifactId>cache-control</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>http-cache-control-spring-boot-starter</name>
 	<description>HTTP Cache Control Spring Boot Starter</description>
 	<url>https://github.com/vyermakov/http-cache-control-spring-boot-starter</url>
@@ -32,10 +32,10 @@
 		<url>
 			https://github.com/vyermakov/http-cache-control-spring-boot-starter</url>
 		<connection>
-			scm:git:git:/github.com/vyermakov/http-cache-control-spring-boot-starter.git</connection>
+			scm:git:git://github.com/vyermakov/http-cache-control-spring-boot-starter.git</connection>
 		<developerConnection>
 			scm:git:git@github.com/vyermakov/http-cache-control-spring-boot-starter.git</developerConnection>
-		<tag>cache-control-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<properties>
 		<java.version>25</java.version>
@@ -174,6 +174,7 @@
 						your key passphrase in manually when performing a release. No biggie unless 
 						you want your CI server to decide when to release for you. -->
 					<mavenExecutorId>forked-path</mavenExecutorId>
+					<pushChanges>false</pushChanges>
 
 				</configuration>
 			</plugin>
