@@ -9,7 +9,7 @@ A simple Spring Boot starter that provides the `@HttpCache` annotation to easily
    <dependency>
        <groupId>com.jeevision.spring.http</groupId>
        <artifactId>cache-control</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.2</version>
    </dependency>
    ```
 
